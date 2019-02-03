@@ -17,7 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="HnH-Ui-EOZ">
+                                <rect key="frame" x="85.5" y="213.5" width="204" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Cd4-Av-oVZ"/>
+                                    <constraint firstAttribute="width" constant="204" id="nqQ-Po-UAk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HnH-Ui-EOZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bYB-yA-gz4"/>
+                            <constraint firstItem="HnH-Ui-EOZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="q6o-3y-bMk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -26,4 +39,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
+    </resources>
 </document>
